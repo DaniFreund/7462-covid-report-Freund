@@ -1,9 +1,11 @@
 Minnesota COVID Report
 ================
 
-Report last run: 2023-03-04 22:08:13
+Report last run: 2023-03-20 23:40:01
 
 ## Introduction
+
+EDITED BY DANI FREUND
 
 This is an example report that uses COVID-19 data from the New York
 Times to illustrate the use of automation processes.
@@ -32,7 +34,7 @@ rate_data <- county_data %>%
   select(date, state, county, cases) %>%
   mutate(date = ymd(date)) %>%
   left_join(pops, by = c("state", "county")) %>%
-  group_by(state, county) %>%
+  group_by(state) %>%
   mutate(cases_lag = lag(cases, LAG_DAYS),
          totalcases_last = cases - cases_lag) %>%
   ungroup() %>%
@@ -106,25 +108,25 @@ rate_data %>%
   knitr::kable()
 ```
 
-| county     | state          |     pop | covid_rate |
-|:-----------|:---------------|--------:|-----------:|
-| Loving     | Texas          |     169 |       2367 |
-| Rolette    | North Dakota   |   14176 |       1284 |
-| Washington | Mississippi    |   43909 |       1043 |
-| Clark      | Kansas         |    1994 |        802 |
-| Menominee  | Wisconsin      |    4556 |        724 |
-| Walsh      | North Dakota   |   10641 |        620 |
-| Neshoba    | Mississippi    |   29118 |        611 |
-| Rawlins    | Kansas         |    2530 |        593 |
-| Humphreys  | Mississippi    |    8064 |        570 |
-| Traverse   | Minnesota      |    3259 |        552 |
-| Dorchester | South Carolina |  162809 |        527 |
-| Keweenaw   | Michigan       |    2116 |        520 |
-| Lawrence   | Mississippi    |   12586 |        509 |
-| Miami-Dade | Florida        | 2716940 |        508 |
-| Sioux      | North Dakota   |    4230 |        496 |
-| Jackson    | Florida        |   46414 |        489 |
-| Madison    | Mississippi    |  106272 |        472 |
-| Walthall   | Mississippi    |   14286 |        469 |
-| Gadsden    | Florida        |   45660 |        466 |
-| Hamilton   | Nebraska       |    9324 |        461 |
+| county             | state          |     pop | covid_rate |
+|:-------------------|:---------------|--------:|-----------:|
+| Delta              | Texas          |    5331 |     147027 |
+| Nome Census Area   | Alaska         |   10004 |      68223 |
+| Chattahoochee      | Georgia        |   10907 |      58174 |
+| Rolette            | North Dakota   |   14176 |      54423 |
+| Miami-Dade         | Florida        | 2716940 |      52763 |
+| Bethel Census Area | Alaska         |   18386 |      50990 |
+| Imperial           | California     |  181215 |      46361 |
+| Scott              | Tennessee      |   22068 |      45614 |
+| McKinley           | New Mexico     |   71367 |      44474 |
+| Greenup            | Kentucky       |   35098 |      43812 |
+| Burleigh           | North Dakota   |   95626 |      42409 |
+| Stark              | North Dakota   |   31489 |      41846 |
+| Craighead          | Arkansas       |  110332 |      40161 |
+| Floyd              | Kentucky       |   35589 |      39979 |
+| Whitley            | Kentucky       |   36264 |      39805 |
+| Lexington          | South Carolina |  298750 |      39581 |
+| Providence         | Rhode Island   |  638931 |      39523 |
+| Nassau             | New York       | 1356924 |      39348 |
+| Denali Borough     | Alaska         |    2097 |      39103 |
+| Pike               | Kentucky       |   57876 |      38864 |

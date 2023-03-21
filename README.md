@@ -1,7 +1,7 @@
 Minnesota COVID Report
 ================
 
-Report last run: 2023-03-20 23:40:01
+Report last run: 2023-03-21 03:12:44
 
 ## Introduction
 
@@ -118,15 +118,15 @@ rate_data %>%
 | Bethel Census Area | Alaska         |   18386 |      50990 |
 | Imperial           | California     |  181215 |      46361 |
 | Scott              | Tennessee      |   22068 |      45614 |
-| McKinley           | New Mexico     |   71367 |      44474 |
-| Greenup            | Kentucky       |   35098 |      43812 |
+| McKinley           | New Mexico     |   71367 |      44546 |
+| Greenup            | Kentucky       |   35098 |      43877 |
 | Burleigh           | North Dakota   |   95626 |      42409 |
 | Stark              | North Dakota   |   31489 |      41846 |
 | Craighead          | Arkansas       |  110332 |      40161 |
-| Floyd              | Kentucky       |   35589 |      39979 |
+| Floyd              | Kentucky       |   35589 |      40029 |
 | Whitley            | Kentucky       |   36264 |      39805 |
 | Lexington          | South Carolina |  298750 |      39581 |
 | Providence         | Rhode Island   |  638931 |      39523 |
-| Nassau             | New York       | 1356924 |      39348 |
+| Nassau             | New York       | 1356924 |      39350 |
 | Denali Borough     | Alaska         |    2097 |      39103 |
-| Pike               | Kentucky       |   57876 |      38864 |
+| Pike               | Kentucky       |   57876 |      38892 |

@@ -1,7 +1,7 @@
 Minnesota COVID Report
 ================
 
-Report last run: 2023-03-22 03:12:16
+Report last run: 2023-03-23 03:12:31
 
 ## Introduction
 
@@ -110,15 +110,15 @@ rate_data %>%
 
 | county             | state          |     pop | covid_rate |
 |:-------------------|:---------------|--------:|-----------:|
-| Delta              | Texas          |    5331 |     147027 |
+| Delta              | Texas          |    5331 |     146989 |
 | Nome Census Area   | Alaska         |   10004 |      68323 |
-| Chattahoochee      | Georgia        |   10907 |      58174 |
+| Chattahoochee      | Georgia        |   10907 |      58183 |
 | Rolette            | North Dakota   |   14176 |      54423 |
 | Miami-Dade         | Florida        | 2716940 |      52763 |
-| Bethel Census Area | Alaska         |   18386 |      51343 |
+| Bethel Census Area | Alaska         |   18386 |      51322 |
 | Imperial           | California     |  181215 |      46361 |
-| Scott              | Tennessee      |   22068 |      45614 |
-| McKinley           | New Mexico     |   71367 |      44564 |
+| Scott              | Tennessee      |   22068 |      45858 |
+| McKinley           | New Mexico     |   71367 |      44603 |
 | Greenup            | Kentucky       |   35098 |      43877 |
 | Burleigh           | North Dakota   |   95626 |      42409 |
 | Stark              | North Dakota   |   31489 |      41846 |
@@ -127,6 +127,6 @@ rate_data %>%
 | Whitley            | Kentucky       |   36264 |      39805 |
 | Lexington          | South Carolina |  298750 |      39633 |
 | Providence         | Rhode Island   |  638931 |      39523 |
-| Nassau             | New York       | 1356924 |      39354 |
-| Denali Borough     | Alaska         |    2097 |      39151 |
+| Nassau             | New York       | 1356924 |      39359 |
+| Denali Borough     | Alaska         |    2097 |      38960 |
 | Pike               | Kentucky       |   57876 |      38892 |

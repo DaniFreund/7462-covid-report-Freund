@@ -1,7 +1,7 @@
 Minnesota COVID Report
 ================
 
-Report last run: 2023-03-23 03:12:31
+Report last run: 2023-03-24 03:13:22
 
 ## Introduction
 
@@ -116,9 +116,9 @@ rate_data %>%
 | Rolette            | North Dakota   |   14176 |      54423 |
 | Miami-Dade         | Florida        | 2716940 |      52763 |
 | Bethel Census Area | Alaska         |   18386 |      51322 |
-| Imperial           | California     |  181215 |      46361 |
+| Imperial           | California     |  181215 |      46528 |
 | Scott              | Tennessee      |   22068 |      45858 |
-| McKinley           | New Mexico     |   71367 |      44603 |
+| McKinley           | New Mexico     |   71367 |      44641 |
 | Greenup            | Kentucky       |   35098 |      43877 |
 | Burleigh           | North Dakota   |   95626 |      42409 |
 | Stark              | North Dakota   |   31489 |      41846 |
@@ -126,7 +126,7 @@ rate_data %>%
 | Floyd              | Kentucky       |   35589 |      40029 |
 | Whitley            | Kentucky       |   36264 |      39805 |
 | Lexington          | South Carolina |  298750 |      39633 |
-| Providence         | Rhode Island   |  638931 |      39523 |
-| Nassau             | New York       | 1356924 |      39359 |
+| Providence         | Rhode Island   |  638931 |      39570 |
+| Nassau             | New York       | 1356924 |      39362 |
 | Denali Borough     | Alaska         |    2097 |      38960 |
 | Pike               | Kentucky       |   57876 |      38892 |
